@@ -108,7 +108,7 @@ def AUC_and_PN(model, datasets, args):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='made from ding angran')
+    parser = argparse.ArgumentParser(description='Eval code')
     parser.add_argument('--test_file', default='preprocess/20/test.pkl', help='path to test file')
     parser.add_argument('--batch_size_eval', type=int, default=200, help='batch size for eval')
     parser.add_argument('--num_classes', type=int, default=53, help='class number for the dataset')

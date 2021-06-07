@@ -117,7 +117,7 @@ def trainModel(model, train_data, args):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Pretrain code for BL&GE BERT')
+    parser = argparse.ArgumentParser(description='Pretrain code')
     parser.add_argument('--train_file', default='preprocess/20/train.pkl', help='path to training file')
     parser.add_argument('--batch_size_train', type=int, default=20, help='batch size for training')
     parser.add_argument('--init_lr', type=float, default=1e-5, help='initial learning rate')

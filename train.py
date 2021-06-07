@@ -208,7 +208,7 @@ def trainModel(model, train_data, args, dataset):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='made from ding angran')
+    parser = argparse.ArgumentParser(description='Train code')
     parser.add_argument('--train_file', default='preprocess/20/train.pkl', help='path to training file')
     parser.add_argument('--test_file', default='preprocess/20/test.pkl', help='path to test file')
     parser.add_argument('--batch_size_train', type=int, default=20, help='batch size for training')

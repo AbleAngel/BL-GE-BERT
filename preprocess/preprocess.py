@@ -106,7 +106,7 @@ def bulid_token_in_sent(dic, max_bag_len, max_seq_len=512, f='../NYT_data/train.
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='CODE FOR: preprocess New York Times dataset')
+    parser = argparse.ArgumentParser(description='Preprocess code')
     parser.add_argument('--bag_max_length', type=int, default=20, help='one bag max length')
 
     args = parser.parse_args()
