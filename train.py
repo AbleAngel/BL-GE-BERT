@@ -217,7 +217,7 @@ if __name__ == "__main__":
     parser.add_argument('--train_epoch', type=int, default=5, help='epoch for training')
     parser.add_argument('--num_classes', type=int, default=53, help='class number for the dataset')
     parser.add_argument('--modelname', type=str, default="BL&GE_BERT", help='model name')
-    parser.add_argument('--modelpath', type=str, default="result/pretrain_BERT", help='path to pretrain model file')
+    parser.add_argument('--modelpath', type=str, default="result/pretrain_BERT.model", help='path to pretrain model file')
 
     args = parser.parse_args()
     print(args)
